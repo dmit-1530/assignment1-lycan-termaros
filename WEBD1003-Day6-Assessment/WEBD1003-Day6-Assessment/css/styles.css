@@ -1,7 +1,18 @@
 /* ***************** utilities & containers ***************** */
 
 /* ***************** global typography ***************** */
-
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 /* ***************** header & footer ***************** */
+header{
+    width: 108rem;
+    height: 5.6875rem;
+    background-color: #0C4A6E;
+    color: white;
+}
 
 /* ***************** main content ***************** */
