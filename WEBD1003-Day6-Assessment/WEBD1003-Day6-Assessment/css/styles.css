@@ -129,6 +129,7 @@ footer {
 
 .team .flex-container {
     row-gap: 3.25rem;
+    margin-bottom: 6rem;
 }
 
 .team .flex-container section {
@@ -136,8 +137,15 @@ footer {
     display: flex;
     padding-left: 1.75rem;
     padding-right: 1.75rem;
-    gap: 3.5rem;
-    /*width: calc((100% / 2rem) - (4 - 2) - 4rem);*/
+    column-gap: 3.5rem;
+    align-items: center;
+    width: calc((100% / 2) - (2rem / 2));
+}
+
+.team .flex-container section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .team .flex-container section img {
@@ -148,15 +156,27 @@ footer {
 .team-member {
     padding-top: 2rem;
     padding-bottom: 2rem;
-    width: 26.75rem;
-    height: 17.5rem;
-    align-items: center;
 }
 
 .plans .flex-container .plan {
     background: var(--Grey, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #F4F4F5);
     display: flex;
     flex-direction: column;
-    gap: 3.5rem;
-    /*width: calc((100% / 3) - (7 - 3) -);*/
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    margin-bottom: 6rem;
+    column-gap: 2rem;
+    width: calc((100% / 3) - (4rem / 3));
+}
+
+.plans .flex-container .plan h3,
+.plans .flex-container .plan h4,
+.plans .flex-container .plan p {
+    text-align: center;
+}
+
+.plans .flex-container .plan li {
+    list-style: disc;
 }
