@@ -141,6 +141,8 @@ footer {
     width: calc((100% / 2) - (2rem / 2));
 }
 
+/* This one gave me a challenge but i managed to do by figuring out that items needs to be align in the center, then for the div, i had to justify the content to the left to make sure the text stays to the right of the image and putting them in columns makes it's more organized and clean. */
+
 .team .flex-container section div {
     display: flex;
     flex-direction: column;
@@ -169,6 +171,8 @@ footer {
     column-gap: 2rem;
     width: calc((100% / 3) - (4rem / 3));
 }
+
+/* For this section, I tried to match it as best as possible and i did so with using width calc and having the content in a column by using flex-direction, putting space between in certain places and making sure all items are properly aligned in the center. This came easier since it was somewhat the same as the one on top. */
 
 .plans .flex-container .plan h3,
 .plans .flex-container .plan h4,
